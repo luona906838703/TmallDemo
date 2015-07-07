@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+ /* CSS Document */
+ /*公共*/
+.tshop-pbsm-shop-self-defined .skin-box-bd{overflow:visible}
+.grid-m .tshop-pbsm-shop-custom-banner, .tshop-pbsm-shop-custom-banner { overflow:visible;}
+.skin-box .skin-box-bd{ background:none;}
+.tshop-pbsm-shop-self-defined {margin-bottom: 0px;}
+area{outline: none;}
+
+/*  定位  */
+.dingwei{ position:absolute;}
+
+/*  左浮动  */
+.l_left{ float:left;}
+
+/* 首页全屏  */
+.quanping{
+width:990px;
+position:relative;
+}
+.quanping .absolute{
+width:1920px;
+position:absolute;
+margin-left:-960px;
+left:50%;
+}
+
+/*底部*/
+.bottom{
+width:990px;
+}
+.bottom .absolute{
+width: 1920px;
+position: absolute;
+margin-left: -475px;
+}
+/*轮播*/
+
+        .nav_con {
+            float: left;
+            margin-right: 7px;
+            width: 15px;
+            height: 15px;
+            background: url(http://img04.taobaocdn.com/imgextra/i4/2417776016/TB2jkp8cVXXXXadXpXXXXXXXXXX_!!2417776016.png) no-repeat;
+            background-position: -15px 0px;
+            cursor: pointer;
+        }
+.act_hy {
+            background-position: 0px 0px;
+        }

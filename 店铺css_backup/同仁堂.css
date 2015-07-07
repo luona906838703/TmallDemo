@@ -1,0 +1,787 @@
+@charset "utf-8";
+/* CSS Document */
+
+ .tshop-pbsm-shop-self-defined .skin-box-bd{overflow:visible}
+.grid-m .tshop-pbsm-shop-custom-banner, .tshop-pbsm-shop-custom-banner { overflow:visible;}
+.skin-box .skin-box-bd{ background:none;}
+.tshop-pbsm-shop-self-defined {margin-bottom: 0px;}
+area{outline: none;}
+
+ .grid-m0 .tshop-pbsm-shop-self-defined .skin-box-bd {
+            overflow: visible;
+            width: 990px;
+        }
+
+        .subnav {
+            position: relative;
+        }
+
+            .subnav .search {
+                position: absolute;
+                top: 5px;
+                left: 518px;
+            }
+
+                .subnav .search input {
+                    background: none repeat scroll 0 0 rgba(255, 255, 255, 0);
+                    border: 1px solid #996c47;
+                    padding-left: 10px;
+                    width: 94px;
+                }
+
+            .subnav .search_for {
+                position: absolute;
+                top: 0px;
+                left: 631px;
+            }
+
+            .subnav .s a {
+                color: #000;
+                font-size: 12px;
+                text-decoration: none;
+            }
+
+                .subnav .s a:hover {
+                    text-decoration: underline;
+                    color: #df5b44;
+                }
+
+            .subnav .s {
+                position: absolute;
+            }
+
+            .subnav .s1 {
+                top: 9px;
+                left: 665px;
+            }
+
+            .subnav .s2 {
+                top: 9px;
+                left: 735px;
+            }
+
+            .subnav .s3 {
+                top: 9px;
+                left: 795px;
+            }
+
+            .subnav .s4 {
+                top: 9px;
+                left: 885px;
+            }
+
+            .subnav .s5 {
+                top: 9px;
+                left: 961px;
+            }
+
+            .subnav .s6 {
+                top: 9px;
+                left: 1086px;
+            }
+
+            .subnav .s7 {
+                top: 9px;
+                left: 1173px;
+            }
+
+            .subnav .s8 {
+                top: 9px;
+                left: 1259px;
+            }
+
+            .subnav .s9 {
+                top: 9px;
+                left: 1323px;
+            }
+
+            .subnav .s10 {
+                top: 9px;
+                left: 1395px;
+            }
+
+        .quanping {
+            width: 990px;
+            position: relative;
+        }
+
+            .quanping .absolute {
+                width: 1920px;
+                position: absolute;
+                margin-left: -960px;
+                left: 50%;
+            }
+
+        .dingwei {
+            position: absolute;
+        }
+
+        .top_search {
+            background-color: #d18d4c;
+            color: #060302;
+            font-size: 14px;
+            font-weight: bold;
+            height: 21px;
+            left: 668px;
+            line-height: 21px;
+            position: absolute;
+            text-align: center;
+            top: 89px;
+            width: 47px;
+        }
+
+        .inputSearch {
+            background-color: rgba(153, 108, 71, 0);
+            border: 1px solid #996c47;
+            height: 19px;
+            left: 721px;
+            padding-left: 10px;
+            position: absolute;
+            top: 89px;
+            width: 172px;
+        }
+
+        .top1 {
+            height: 50px;
+            left: 511px;
+            list-style: outside none none;
+            position: absolute;
+            top: 186px;
+            width: 165px;
+        }
+
+            .top1 li {
+                float: left;
+                margin: 2px 5px;
+            }
+
+                .top1 li a {
+                    color: #eee3d5;
+                    font-size: 12px;
+                    text-decoration: none;
+                }
+
+        .top2 {
+            height: 50px;
+            left: 744px;
+            list-style: outside none none;
+            position: absolute;
+            top: 193px;
+            width: 165px;
+        }
+
+            .top2 li {
+                float: left;
+                margin: 2px 5px;
+            }
+
+                .top2 li a {
+                    color: #eee3d5;
+                    font-size: 12px;
+                    text-decoration: none;
+                }
+
+        .top3 {
+            height: 50px;
+            left: 943px;
+            list-style: outside none none;
+            position: absolute;
+            top: 188px;
+            width: 245px;
+        }
+
+            .top3 li {
+                float: left;
+                margin: 2px 5px;
+            }
+
+                .top3 li a {
+                    color: #eee3d5;
+                    font-size: 12px;
+                    text-decoration: none;
+                }
+
+            .top1 a:hover, .top2 a:hover, .top3 a:hover {
+                color: #efc86a;
+            }
+
+
+            .bounce{
+                position:relative;
+            }
+            .bounce .tc{
+                width:150px;
+                height:150px;
+                border-radius:75px;
+                position:absolute;
+            }
+            .bounce .tc1{
+                left: 342px;
+                top: 250px;
+            }
+            .bounce .tc2{
+                left: 491px;
+    top: 360px;
+            }
+            .bounce .tc3{
+                left: 632px;
+    top: 238px;
+            }
+            .bounce .tc4{
+                left: 872px;
+    top: 245px;
+            }
+            .bounce .tc5{
+                left: 742px;
+    top: 390px;
+            }
+            .bounce .tc6{
+                left: 1022px;
+    top: 350px;
+            }
+            .bounce .tc7{
+                left: 1170px;
+    top: 241px;
+            }
+            .bounce .tc8{
+                left: 1270px;
+    top: 391px;
+            }
+
+            .hidden{
+                display:none;
+            }
+
+
+.head{
+            height:126px;
+        }
+        .dibu_nav{
+            height:24px;
+        }
+        .fl{
+            float:left;
+        }
+        .cl{
+            clear:both;
+        }
+        .head_right{
+            background:url(http://img01.taobaocdn.com/imgextra/i1/845818659/TB2D5aPcFXXXXb4XXXXXXXXXXXX_!!845818659.jpg) no-repeat;
+            width:440px;
+            height:126px;
+        }
+
+        .dbn_left{
+            width:463px;
+            height:24px;
+            
+            background:url(http://img02.taobaocdn.com/imgextra/i2/845818659/TB2f45RcFXXXXafXXXXXXXXXXXX_!!845818659.jpg) repeat-x;
+        }
+
+
+        /*导航样式首页*/
+        .sy{
+            width:86px;
+            height:24px;
+            
+
+        }
+         .sy a{
+             display:block;
+             height:24px;
+             overflow:hidden;
+             position:relative;
+         }
+         .sy a img{
+             position:absolute;
+         }
+         .sy a:hover img{
+             top:-25px;
+         }
+         /*导航样式所有产品*/
+         .sy2{
+             width:96px;
+             height:24px;
+         }
+         .sy2 a{
+             display:block;
+             height:24px;
+             overflow:hidden;
+             position:relative;
+         }
+         .sy2 a img{
+             position:absolute;
+         }
+         .sy2 a:hover img{
+             top:-25px;
+         }
+         /*导航样式镇店之宝*/
+
+         /*女神滋补*/
+
+         /*男士活力*/
+         .sy3{
+             width:106px;
+             height:24px;
+         }
+         .sy3 a{
+             display:block;
+             height:24px;
+             overflow:hidden;
+             position:relative;
+         }
+         .sy3 a img{
+             position:absolute;
+         }
+         .sy3 a:hover img{
+             top:-25px;
+         }
+
+         /*长辈健康*/
+         .sy4{
+             width:102px;
+             height:24px;
+         }
+         .sy4 a{
+             display:block;
+             height:24px;
+             overflow:hidden;
+             position:relative;
+         }
+         .sy4 a img{
+             position:absolute;
+         }
+         .sy4 a:hover img{
+             top:-25px;
+         }
+         /*百年品牌*/
+         .sy5{
+             width:102px;
+             height:24px;
+         }
+         .sy5 a{
+             display:block;
+             height:24px;
+             overflow:hidden;
+             position:relative;
+         }
+         .sy5 a img{
+             position:absolute;
+         }
+         .sy5 a:hover img{
+             top:-25px;
+         }
+         /*手机店铺*/
+         .sy6{
+             width:107px;
+             height:24px;
+         }
+         .sy6 a{
+             display:block;
+             height:24px;
+             overflow:hidden;
+             position:relative;
+         }
+         .sy6 a img{
+             position:absolute;
+         }
+         .sy6 a:hover img{
+             top:-25px;
+         }
+
+
+         .dbn_right{
+            width:649px;
+            height:24px;
+            
+            background:url(http://img02.taobaocdn.com/imgextra/i2/845818659/TB2f45RcFXXXXafXXXXXXXXXXXX_!!845818659.jpg) repeat-x;
+        }
+
+
+.ps{
+             position:relative;
+         }
+         .guanzhu{
+             
+             width:25px;
+             height:50px;
+             
+             position:absolute;
+             top:46px;
+             left:567px;
+         }
+         .guanzhu a{
+             display:block;
+             width:25px;
+             height:50px;
+         }
+
+
+/*左右滑动效果*/
+.scrollable {
+    position: relative;
+    width: 990px;
+    height: 530px;
+}
+
+    .scrollable .prev, .scrollable .next {
+        background-color: transparent;
+        color: #BA0000;
+        cursor: pointer;
+        font-family: "微软雅黑";
+        font-size: 100px;
+        font-weight: 100;
+        position: absolute;
+        top: 170px;
+    }
+
+    .scrollable .prev {
+        left: 20px;
+    }
+
+    .scrollable .next {
+        right: 20px;
+    }
+
+        .scrollable .prev:hover, .scrollable .next:hover {
+            color: #CFCFCF;
+            text-decoration: none;
+        }
+
+    .scrollable .disable {
+        color: #DDDDDD;
+        cursor: default;
+    }
+
+    .scrollable .ks-switchable-nav {
+        display: none;
+        position: absolute;
+        right: 65px;
+        top: 228px;
+    }
+
+        .scrollable .ks-switchable-nav li {
+            cursor: pointer;
+            float: left;
+            font-size: 18px;
+            margin-right: 2px;
+            padding: 0;
+        }
+
+            .scrollable .ks-switchable-nav li.ks-active {
+                color: #C8282B;
+            }
+
+/*第二层*/
+ .scroller {
+    background-color: #FFF;
+    border: 1px solid #D3D3D3;
+    height: 217px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    top: 140px;
+    width: 852px;
+}
+
+     .scroller .zdy-switchable-content .left {
+        border: 0 solid #D3D3D3;
+        float: left;
+        height: 215px;
+        width: 98px;
+    }
+
+     .scroller .zdy-switchable-content .right {
+        border: 0 solid #D3D3D3;
+        float: left;
+        height: 215px;
+        padding-left: 656px;
+        width: 98px;
+    }
+
+     .scroller .zdy-switchable-content .scrollerdl {
+        display: block;
+        height: 215px;
+        padding: 0;
+        width: 98px;
+    }
+
+         .scroller .zdy-switchable-content .scrollerdl dd {
+            margin: 0 auto;
+            text-align: center;
+            width: 80px;
+        }
+
+         .scroller .zdy-switchable-content .scrollerdl .scrollertitle {
+            color: #BA0000;
+            display: block;
+            font-size: 12px;
+            height: 30px;
+            line-height: 30px;
+            text-align: left;
+            width: 80px;
+        }
+
+         .scroller .zdy-switchable-content .scrollerdl .scrollertitle2 {
+            font-size: 12px;
+            height: 55px;
+            margin-left: auto;
+            margin-right: auto;
+            overflow: hidden;
+            text-align: left;
+            width: 80px;
+        }
+
+             .scroller .zdy-switchable-content .scrollerdl .scrollertitle2 a {
+                display: block;
+                height: 55px;
+                line-height: 18px;
+            }
+
+                 .scroller .zdy-switchable-content .scrollerdl .scrollertitle2 a:hover {
+                    text-decoration: none;
+                }
+
+         .scroller .zdy-switchable-content .scrollerdl .scrollerprice {
+            color: #BA0000;
+            display: block;
+            font-size: 12px;
+            height: 16px;
+            line-height: 16px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            overflow: hidden;
+            text-align: left;
+            width: 80px;
+        }
+
+         .scroller .zdy-switchable-content .scrollerdl .scrollersell {
+            display: block;
+            font-size: 12px;
+            height: 16px;
+            line-height: 16px;
+            margin-left: auto;
+            margin-right: auto;
+            overflow: hidden;
+            text-align: left;
+            width: 80px;
+            color: #666;
+        }
+
+         .scroller .zdy-switchable-content .scrollerdl .scrollerprice em {
+            font-weight: bold;
+        }
+
+         .scroller .zdy-switchable-content .scrollerdl .scrollersell em {
+            color: #5C5C5C;
+            font-family: "宋体";
+            font-size: 12px;
+            font-weight: bold;
+            padding: 0 2px;
+        }
+
+ .scroller1 {
+    border: 1px solid #D3D3D3;
+    height: 267px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    top: -105px;
+    width: 655px;
+    background: #FFF;
+}
+
+     .scroller1 .zdy-switchable-content1 .left {
+        border: 0 solid #D3D3D3;
+        float: left;
+        height: 265px;
+        width: 148px;
+    }
+
+     .scroller1 .zdy-switchable-content1 .right {
+        border: 0 solid #D3D3D3;
+        float: left;
+        height: 265px;
+        padding-left: 359px;
+        width: 148px;
+    }
+
+     .scroller1 .zdy-switchable-content1 .scroller1dl {
+        display: block;
+        height: 265px;
+        padding: 0;
+        width: 148px;
+    }
+
+         .scroller1 .zdy-switchable-content1 .scroller1dl dd {
+            margin: 0 auto;
+            text-align: center;
+            width: 120px;
+        }
+
+         .scroller1 .zdy-switchable-content1 .scroller1dl .scroller1title {
+            color: #BA0000;
+            display: block;
+            font-size: 12px;
+            height: 30px;
+            line-height: 30px;
+            text-align: left;
+            width: 120px;
+        }
+
+         .scroller1 .zdy-switchable-content1 .scroller1dl .scroller1title2 {
+            font-size: 12px;
+            height: 55px;
+            margin-left: auto;
+            margin-right: auto;
+            overflow: hidden;
+            text-align: left;
+            width: 120px;
+        }
+
+             .scroller1 .zdy-switchable-content1 .scroller1dl .scroller1title2 a {
+                display: block;
+                height: 55px;
+                line-height: 18px;
+                width: 120px;
+            }
+
+                 .scroller1 .zdy-switchable-content1 .scroller1dl .scroller1title2 a:hover {
+                    text-decoration: none;
+                }
+
+         .scroller1 .zdy-switchable-content1 .scroller1dl .scroller1price {
+            color: #BA0000;
+            display: block;
+            font-size: 12px;
+            height: 20px;
+            line-height: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            overflow: hidden;
+            text-align: left;
+            width: 120px;
+        }
+
+         .scroller1 .zdy-switchable-content1 .scroller1dl .scroller1sell {
+            display: block;
+            font-size: 12px;
+            height: 20px;
+            line-height: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            overflow: hidden;
+            text-align: left;
+            width: 120px;
+            color: #666;
+        }
+
+         .scroller1 .zdy-switchable-content1 .scroller1dl .scroller1price em {
+            font-weight: bold;
+        }
+
+         .scroller1 .zdy-switchable-content1 .scroller1dl .scroller1sell em {
+            color: #5C5C5C;
+            font-family: "宋体";
+            font-size: 12px;
+            font-weight: bold;
+            padding: 0 2px;
+        }
+
+ .scroller2 {
+    height: 452px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    top: -455px;
+    width: 348px;
+    background: #FFF;
+    border: 6px solid #BA0000;
+}
+
+     .scroller2 .zdy-switchable-content2 .scroller2dl {
+        display: block;
+        height: 464px;
+        padding: 0 19px;
+        width: 310px;
+    }
+
+ .scroller1 .zdy-switchable-content1 .scroller2dl dd {
+    margin: 0 auto;
+    text-align: center;
+    width: 310px;
+}
+
+ .scroller2 .zdy-switchable-content2 .scroller2dl .scroller2title {
+    color: #BA0000;
+    display: block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    text-align: left;
+    width: 310px;
+    font-family: "微软雅黑";
+}
+
+ .scroller2 .zdy-switchable-content2 .scroller2dl .scroller2title2 {
+    font-size: 14px;
+}
+
+     .scroller2 .zdy-switchable-content2 .scroller2dl .scroller2title2 a {
+        display: block;
+        height: 35px;
+        line-height: 18px;
+        margin-top: 5px;
+        overflow: hidden;
+        width: 310px;
+    }
+
+         .scroller2 .zdy-switchable-content2 .scroller2dl .scroller2title2 a:hover {
+            text-decoration: none;
+        }
+
+ .scroller2 .zdy-switchable-content2 .scroller2dl .price {
+    color: #BA0000;
+    display: block;
+    float: left;
+    font: bold 14px/60px arial;
+    height: 60px;
+    overflow: hidden;
+    width: 150px;
+}
+
+ .scroller2 .zdy-switchable-content2 .scroller2dl .sell {
+    background: url(#) no-repeat scroll 0 center transparent;
+    color: #666;
+    display: block;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    margin-left: 55px;
+    overflow: hidden;
+    padding-left: 17px;
+    width: 85px;
+}
+
+     .scroller2 .zdy-switchable-content2 .scroller2dl .sell em {
+        color: #666;
+        font-family: "宋体";
+        font-size: 12px;
+        font-weight: bold;
+        padding: 0 3px;
+    }
+
+
+.liren {
+	width: 990px;
+	height: auto;
+}
+.liren .position {
+	width: 1920px;
+	position: absolute;
+	height: auto;
+	margin-left: -465px;
+}

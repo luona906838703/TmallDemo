@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+ /*公共*/
+.tshop-pbsm-shop-self-defined .skin-box-bd{overflow:visible}
+.grid-m .tshop-pbsm-shop-custom-banner, .tshop-pbsm-shop-custom-banner { overflow:visible;}
+.skin-box .skin-box-bd{ background:none;}
+.tshop-pbsm-shop-self-defined {margin-bottom: 0px;}
+.grid-s5m0 .main-wrap,.grid-m0s5 .main-wrap{overflow:visible;}
+
+/*  定位  */
+.dingwei{ position:absolute;}
+
+/*  左浮动  */
+.l_left{ float:left;}
+
+/* 首页全屏  */
+.quanping{
+width:990px;
+position:relative;
+}
+.quanping .absolute{
+width:1920px;
+position:absolute;
+margin-left:-465px;
+}
+
+/*底部*/
+.bottom{
+width:990px;
+position:relative;
+}
+.bottom .absolute{
+width: 1920px;
+position: absolute;
+margin-left: -475px;
+}
+/* 2015-03-23 */
+.jiaodian li{
+width: 15px;
+height: 15px;
+float: left;
+cursor: pointer;
+background: url(http://img04.taobaocdn.com/imgextra/i4/2196539663/TB2HvGFcXXXXXarXpXXXXXXXXXX_!!2196539663.png) no-repeat ;
+background-position:0px -15px;
+margin-left:10px;
+}
+.jiaodian li.ks-active{ background-position:0 0;}
+
+.arrow_jxx_01{ background:url(http://img02.taobaocdn.com/imgextra/i2/2196539663/TB2UA9HcXXXXXXNXpXXXXXXXXXX_!!2196539663.png) no-repeat; background-position:0px -59px;}
+.arrow_jxx_01:hover{ background-position:0px 0px;}
+.arrow_jxx_02{ background:url(http://img01.taobaocdn.com/imgextra/i1/2196539663/TB2tV5NcXXXXXX5XXXXXXXXXXXX_!!2196539663.png) no-repeat; background-position:0px -59px;}
+.arrow_jxx_02:hover{ background-position:0px 0px;}
+.nav_xzmm .a{background:url(http://img04.taobaocdn.com/imgextra/i4/2196539663/TB2tomGcXXXXXaTXpXXXXXXXXXX_!!2196539663.png) no-repeat;}
+.nav_xzmm .b{background:url(http://img04.taobaocdn.com/imgextra/i4/2196539663/TB2.3CGcXXXXXaUXpXXXXXXXXXX_!!2196539663.png) no-repeat;
+}
+.nav_xzmm .c{background:url(http://img02.taobaocdn.com/imgextra/i2/2196539663/TB2dSGFcXXXXXbQXpXXXXXXXXXX_!!2196539663.png) no-repeat;}
+.nav_xzmm li:hover{ background-position:0 -123px;}
+.nav_xzmm li.ks-active{background-position:0 -123px;}
+.nav_xzmm li{ float:left; margin-right:20px; cursor:pointer; width:118px; height:123px;}

@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+ /*公共*/
+ .tshop-pbsm-shop-self-defined .skin-box-bd{overflow:visible}
+.grid-m .tshop-pbsm-shop-custom-banner, .tshop-pbsm-shop-custom-banner { overflow:visible;}
+.skin-box .skin-box-bd{ background:none;}
+.tshop-pbsm-shop-self-defined {margin-bottom: 0px;}
+.l_left{ float:left;}
+.dingwei{ position:absolute;}
+
+/*  左浮动  */
+.left {float:left;}
+/* 首页全屏  */
+.quanping{
+width:990px;
+position:relative;
+}
+.quanping .absolute{
+width:1920px;
+position:absolute;
+margin-left:-960px;
+left:50%;
+}
+/*中部分类导航*/
+
+.bbck1{
+width: 950px;
+height: 285px;
+margin: 0 auto;
+}
+
+
+/*首页2014-10-09*/
+.daohang{ width:990px; height:150px;}
+.daohang .position{ position:absolute; margin-left:-475px; height:150px; width:1920px;}
+.neirong{ width:990px; height:auto;}
+.neirong .position{ position:absolute; width:1920px; margin-left:-475px; height:auto;}
+.daohang ul li{ float:left; height:34px;}
+.daohang ul li a{display: block;height: 34px;overflow: hidden;position:relative;}
+.daohang ul li a img{ position:absolute;}
+.daohang ul li a:hover img{ top:-34px;}
+.nav_kapan li{ width:9px; height:9px; float:left; margin-left:7px; background:url(http://img02.taobaocdn.com/imgextra/i2/1968965736/TB2YpjDaFXXXXaqXXXXXXXXXXXX_!!1968965736.png) no-repeat;cursor:pointer;}
+.nav_kapan li.act_gc{ background-position:-9px 0;}
+.neirong_new{ width:990px; height:auto;}
+.neirong_new .position{ position:absolute; width:1600px; margin-left:-300px; height:auto;}
+/*测试卡盘*/
+.test_slide{ height:400px; width:950px; margin:auto; background:#fff;}
+.test_slide .slide_range{height:400px; width:950px; margin:auto; overflow:hidden;}
+.test_slide .slide_range .ks-switchable-content{ width:657px;height:400px; position:absolute; z-index:2; background:url(http://img01.taobaocdn.com/imgextra/i1/1968965736/TB2XZUsbFXXXXa2XpXXXXXXXXXX-1968965736.png); margin-left:154px;}
+
+
+.test_slide .slide_range .ks-switchable-content p{ width:506px;height:323px; position:absolute; z-index:2; margin-left:68px;; margin-top:20px;}
+.test_slide .slide_range .yslider-stick { width:1500px; height:400px; z-index:1; list-style:none; padding-top:49px; margin:auto;background:url(http://img04.taobaocdn.com/imgextra/i4/1968965736/TB2TiorbFXXXXbgXpXXXXXXXXXX-1968965736.jpg)}
+.test_slide .slide_range .yslider-stick li { height:273px; width:381px; float:left; padding:0 188px 0 0px; overflow:hidden}
+.test_slide .slide_range .yslider-stick li img{ height:273px; width:381px;  cursor:pointer;}
+.test_slide .slide_range .yslider-stick li.ks-active{ display:none; }
+
+/*css特效*/
+.nov ul li {
+float: left;
+margin-left: 2px;
+}
+.nov ul li a, .nov ul li a:hover
+{
+	-webkit-transition: all 3s linear 0.01s;
+	-moz-transition: all 3s linear 0.01s;
+	-ms-transition: all 3s linear 0.01s;
+	-o-transition: all 3s linear 0.01s;
+	transition: all 3s linear 0.01s;
+}
+
+.tingico {
+background-image: url(http://img04.taobaocdn.com/imgextra/i4/1968965736/TB2e_ZybFXXXXagXpXXXXXXXXXX-1968965736.jpg);
+background-repeat: no-repeat;
+}
+.liico0{
+	height: 30px;
+width: 39px;
+float: left;
+margin-top: 12px;
+margin-left: 14px;
+
+}
+
+.nov ul li a:hover{background-position: 0px -150px;}
+/*2015-03-17*/
+.user_pz {
+		position: relative;
+		cursor: pointer;
+		float: left;
+		}
+		.user_bz {
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		transition: all 0.2s linear;
+		-moz-transition: all 0.2s linear;
+		-webkit-transition: all 0.2s linear;
+		-o-transition: all 0.2s linear;
+		}
+		.user_pz:hover .user_bz {
+			opacity: 1;
+		}.nav_kapan_01 li {
+width: 8px;
+height: 8px;
+float: left;
+margin-left: 7px;
+background: url(http://img01.taobaocdn.com/imgextra/i1/1968965736/TB2T9KdcXXXXXbmXXXXXXXXXXXX-1968965736.png) no-repeat;
+cursor: pointer;
+}
+.nav_kapan_01 li.act_gc{ background:url(http://img02.taobaocdn.com/imgextra/i2/1968965736/TB2brBcXpXXXXbwXFXXXXXXXXXX-1968965736.png) no-repeat;}
+.liebiao_hw ul{ float:left;}
+.liebiao_hw ul li a
+{
+	text-decoration: none;
+	font-size: 12px;
+	color: #FFF;
+	line-height: 24px;
+	font-family: 微软雅黑;
+}
+.liebiao_hw ul li a:hover{ text-decoration:underline; color:#125149;}
+.yijiasancan {
+position: absolute;
+margin-left: 1520px;
+}
+
+/*2015新*/
+.user_pz{ position:relative; cursor:pointer; float:left;}
+.user_bz{ position:absolute; top: 0;left: 0;opacity: 0;-webkit-transition: all 0.2s linear;
+transition: all 0.2s linear;-moz-transition: all 0.2s linear;-o-transition: all 0.2s linear;}
+.user_pz:hover .user_bz{ opacity:1;}
+.ks-active img{ display:none;}
+.bbck2 .text1 a {text-decoration: none;font-size: 12px;color: #fff;line-height: 24px;}
+.bbck2 .text1 a:hover{ color:#c4ee4e; text-decoration:underline;}
+.chanpin_qu a{ text-decoration:none; font-size:12px; color:#fff; line-height:24px;}
+.chanpin_qu a:hover{ color:#515151;}
+.guanwang span{ color:#fff; font-size:16px; line-height:24px; font-family:Arial;}
+.top_27{position: absolute;top: -27px;z-index: 99;}
+.next_gc_th{background:url(http://img04.taobaocdn.com/imgextra/i4/1114884337/TB2hFIRbVXXXXceXXXXXXXXXXXX_!!1114884337.png) no-repeat;}
+.next_gc_th:hover{ background-position:0 -342px;}
+.zhuanqu li{ float:left; width:1201px; height:146px;}
+.zhuanqu li img {
+opacity: 1;
+}
+.zhuanqu li a:hover img {
+opacity: 1;
+}
+
+.zhuanqu li:hover img {
+opacity: 0.9;
+}
+
+ .zhuanqu li a{display:block;float:left; width:195px; height:146px;}
+.pz_size{
+		width:150px;
+		height:160px;
+		display:block;	
+	}
+/*丽人联合活动*/
+
+.liren {
+	width: 990px;
+	height: auto;
+}
+.liren .position {
+	width: 1920px;
+	position: absolute;
+	height: auto;
+	margin-left: -465px;
+}
+.shop_cp{
+		width:230px;
+		height:360px;
+		display:block;
+		position:absolute;
+	}

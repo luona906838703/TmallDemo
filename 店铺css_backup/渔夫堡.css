@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+ /*公共*/
+.tshop-pbsm-shop-self-defined .skin-box-bd{overflow:visible}
+.grid-m .tshop-pbsm-shop-custom-banner, .tshop-pbsm-shop-custom-banner { overflow:visible;}
+.skin-box .skin-box-bd{ background:none;}
+.tshop-pbsm-shop-self-defined {margin-bottom: 0px;}
+
+/*  定位  */
+.dingwei{ position:absolute;}
+
+/*  左浮动  */
+.l_left{ float:left;}
+
+/* 首页全屏  */
+.quanping{
+width:990px;
+position:relative;
+}
+.quanping .absolute{
+width:1920px;
+position:absolute;
+margin-left:-960px;
+left:50%;
+}
+
+/*底部*/
+.bottom{
+width:990px;
+position:relative;
+}
+.bottom .absolute{
+width: 1920px;
+position: absolute;
+margin-left: -475px;
+}
+
+/*宝贝分类*/
+.liebiao ul{ float:left;}
+.liebiao ul li a{
+text-decoration: none;
+font-size: 12px;
+line-height: 24px;
+font-family: 微软雅黑;
+}
+.liebiao_a ul li a{
+color:#fff;
+}
+.liebiao_a ul li a:hover{
+color:#d39200;
+text-decoration:underline;
+}
+
+/*鼠标滑过显示第二张图片*/
+.user_pz {
+position: relative;
+cursor: pointer;
+}
+.user_bz {
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
+transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+-webkit-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+}
+.user_pz:hover .user_bz {
+opacity: 1;
+}
+
+
+/*2015-03-26*/
+.jiaodian li{ margin-top:10px; width:28px; height:22px;cursor:pointer;}
+.jiaodian .a{ background:url(http://img02.taobaocdn.com/imgextra/i2/2434673670/TB2s7PpcXXXXXaSXpXXXXXXXXXX_!!2434673670.png) no-repeat;}
+.jiaodian .b{ background:url(http://img04.taobaocdn.com/imgextra/i4/2434673670/TB2c3TxcXXXXXbSXXXXXXXXXXXX_!!2434673670.png) no-repeat;}
+.jiaodian .c{ background:url(http://img04.taobaocdn.com/imgextra/i4/2434673670/TB2YNnqcXXXXXXVXpXXXXXXXXXX_!!2434673670.png) no-repeat;}
+.jiaodian .d{ background:url(http://img04.taobaocdn.com/imgextra/i4/2434673670/TB2FGLrcXXXXXX0XpXXXXXXXXXX_!!2434673670.png) no-repeat;}
+.jiaodian .e{ background:url(http://img02.taobaocdn.com/imgextra/i2/2434673670/TB2_yTrcXXXXXXIXpXXXXXXXXXX_!!2434673670.png) no-repeat;}
+.jiaodian .f{ background:url(http://img03.taobaocdn.com/imgextra/i3/2434673670/TB2XtPncXXXXXbHXpXXXXXXXXXX_!!2434673670.png) no-repeat;}
+.jiaodian li:hover{ background-position:-30px 0;}
+.jiaodian li.ks-active{ background-position:-30px 0;}
+.top-110{top:-110px}

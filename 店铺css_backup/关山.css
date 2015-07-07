@@ -1,0 +1,580 @@
+@charset "utf-8";
+/* CSS Document */
+
+ /*公共*/
+.tshop-pbsm-shop-self-defined .skin-box-bd{overflow:visible}
+.grid-m .tshop-pbsm-shop-custom-banner, .tshop-pbsm-shop-custom-banner { overflow:visible;}
+.skin-box .skin-box-bd{ background:none;}
+.tshop-pbsm-shop-self-defined {margin-bottom: 0px;}
+area{outline: none;}
+.senneiro{ width:990px; height:800px;}
+.senneiro .position{ position:absolute;height:800px; width:1920px; margin-left:-456px;}
+
+
+
+/*  定位  */
+.dingwei{ position:absolute;}
+
+/*  左浮动  */
+.l_left{ float:left;}
+
+/* 首页全屏  */
+.quanping{
+width:990px;
+position:relative;
+}
+.quanping .absolute{
+width:1920px;
+position:absolute;
+margin-left:-960px;
+left:50%;
+}
+
+/*底部*/
+.bottom{
+width:990px;
+}
+.bottom .absolute{
+width: 1920px;
+position: absolute;
+margin-left: -475px;
+}
+
+/*宝贝分类*/
+.liebiao ul{ float:left;}
+.liebiao ul li a{
+text-decoration: none;
+font-size: 12px;
+line-height: 24px;
+font-family: 微软雅黑;
+}
+.liebiao_a ul li a{
+color:#fff;
+}
+.liebiao_a ul li a:hover{
+color:#b58000;
+text-decoration:underline;
+}
+
+/*鼠标滑过显示第二张图片*/
+.user_pz {
+position: relative;
+cursor: pointer;
+}
+.user_bz {
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
+transition: all 0.2s linear;
+-moz-transition: all 0.2s linear;
+-webkit-transition: all 0.2s linear;
+-o-transition: all 0.2s linear;
+}
+.user_pz:hover .user_bz {
+opacity: 1;
+}
+
+/*2015-04-20首页*/
+.jiaodian li{ width:151px; height:50px; float:left; cursor:pointer; margin-right:13px;}
+.jiaodian li.ks-active{ background-position:0 -50px}
+.jiaodian .a{ background:url(http://img01.taobaocdn.com/imgextra/i1/2415914062/TB2fA1HcVXXXXX0XXXXXXXXXXXX_!!2415914062.png) no-repeat;}
+.jiaodian .b{ background:url(http://img04.taobaocdn.com/imgextra/i4/2415914062/TB2qIqAcVXXXXczXXXXXXXXXXXX_!!2415914062.png) no-repeat;}
+.jiaodian .c{ background:url(http://img03.taobaocdn.com/imgextra/i3/2415914062/TB2.KuwcVXXXXXMXpXXXXXXXXXX_!!2415914062.png) no-repeat;}
+.jiaodian .d{ background:url(http://img04.taobaocdn.com/imgextra/i4/2415914062/TB29GH8cpXXXXbKXXXXXXXXXXXX_!!2415914062.png) no-repeat;}
+
+/*tab标签页*/
+.tab1 li{
+	list-style:none;
+}
+.tab1 { position: relative; width: 750px; padding-top: 29px; }
+.tab1 .ks-switchable-nav { position: absolute; left: 20px; margin-top: -29px; z-index: 99; }
+.tab1 .ks-switchable-nav li {
+    float: left;
+    width: 130px;
+    height: 27px;
+    line-height: 21px;
+    text-align: center;
+    background: url(http://img01.taobaocdn.com/tps/i1/T1XtV7XjhsXXXXXXXX-130-70.gif) no-repeat 0 6px;
+    margin-right: 3px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+.tab1 .ks-switchable-nav li.ks-active { background-position: 0 -40px; cursor: default; }
+.tab1 .ks-switchable-content {
+    position: relative;
+    height: 150px;
+    padding: 20px;
+    border: 1px solid #AEC7E5;
+}
+
+/*tabss标签页*/
+.tabss li {
+	list-style:none;
+}
+.tabss {
+	position:relative;
+	width:750px;
+	padding-top:29px;
+}
+.tabss .ks_content {
+	position:absolute;
+	left:20px;
+	margin-top:-29px;
+	z-index:99;
+}
+.tabss .ks_content li {
+	float:left;
+	width:130px;
+	margin-right:3px;
+	padding-top:8px;
+	height:27px;
+	line-height:21px;
+	text-align:center;
+	cursor:pointer;
+	background:url(http://img01.taobaocdn.com/tps/i1/T1XtV7XjhsXXXXXXXX-130-70.gif) no-repeat 0 6px;
+}
+.tabss .ks_content li.back_1{
+	background-position: 0 -40px;
+	cursor:default;
+}
+.tabss .item_1 {
+	position:relative;
+	height:120px;
+	padding:20px;
+	border:1px solid #AEC7E5;
+}
+
+
+
+
+
+
+.slide1 { position: relative; width: 470px; height: 150px; border: 1px solid #B6D1E6; overflow: hidden; }
+.slide1 .ks-switchable-nav { position: absolute; bottom: 5px; right: 5px; z-index: 99; }
+.slide1 .ks-switchable-nav li {
+    float: left;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    margin-left: 3px;
+    background-color: #FCF2CF;
+    border: 1px solid #F47500;
+    color: #D94B01;
+    text-align: center;
+    cursor: pointer;
+}
+.slide1 .ks-switchable-nav li.ks-active {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: -1px;
+    color: #FFF;
+    background-color: #FFB442;
+    font-weight: bold;
+}
+.slide1 .ks-switchable-content li { height: 150px; width: 470px; overflow: hidden; }
+/* for countdown plugin */
+.slide1 .ks-switchable-nav li,
+.slide1 .ks-switchable-trigger-content {
+    position: relative;
+}
+.slide1 .ks-switchable-trigger-mask {
+    position: absolute;
+    right: 0;
+    width: 18px;
+    height: 18px;
+    background-color: #FF9415;
+    visibility: hidden
+}
+.slide1 .ks-active .ks-switchable-trigger-mask {
+    visibility: visible
+}
+
+
+.aaa li{
+	list-style:none;
+}
+.aaa { position: relative; width: 750px; padding-top: 29px; }
+.aaa .ks-switchable-nav { position: absolute; left: 20px; margin-top: -29px; z-index: 99; }
+.aaa .ks-switchable-nav li {
+    float: left;
+    width: 130px;
+    height: 27px;
+    line-height: 21px;
+    text-align: center;
+    background: url(http://img01.taobaocdn.com/tps/i1/T1XtV7XjhsXXXXXXXX-130-70.gif) no-repeat 0 6px;
+    margin-right: 3px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+.aaa .ks-switchable-nav li.ks-active { background-position: 0 -40px; cursor: default; }
+.aaa .ks-switchable-content {
+    position: relative;
+    height: 120px;
+    padding: 20px;
+    border: 1px solid #AEC7E5;
+}
+
+
+
+
+
+
+
+
+
+.TabX li {
+	list-style:none;
+}
+.TabX {
+	width:500px;
+	line-height:0px;
+}
+.TabX .active_x {
+	height:30px;
+	line-height:30px;
+	padding-left:25px;
+}
+.TabX .active_x li {
+	float:left;
+	width:60px;
+	text-align:center;
+	border:2px solid #BD8889;
+	margin-left:10px;
+	z-index:99;
+	margin-bottom:-2px;
+	cursor:pointer;
+}
+.TabX .item_x {
+	height:60px;
+	width:300px;
+	overflow:hidden;
+	border:2px solid #BD8889;
+	padding:15px;
+}
+.TabX .active_x li.back_r {
+	background:#E90E11;
+	cursor:default;
+}
+.TabX .item_x .hidden {
+	display:none;
+}
+
+
+
+
+
+/*slide卡盘*/
+
+
+
+
+
+
+
+.Tabessde_Na {
+	position:absolute;
+}
+.Tabessde_Na li {
+	list-style:none;
+}
+
+.Tabessde_Na .A_Itemybyp {
+	width:1920px;
+	height:596px;
+}
+.Tabessde_Na .A_tabybyp {
+	margin-left:45px;
+	position:absolute;
+	top:184px;
+	left:360px;
+	width:1155px;
+	height:30px;
+	z-index:99;
+}
+.Tabessde_Na .A_tabybyp .A_1 {
+	float:left;
+	width:220px;
+	height:30px; display:block; cursor:pointer;
+}
+
+
+
+
+
+
+
+
+/*tab选项卡*/
+.Tabsx_1 li {
+	list-style:none;
+}
+.Tabsx_1 {
+	position:relative;
+	margin-left:-465px;
+	width:1920px;
+	height:600px;
+	overflow:hidden;
+}
+.Tabsx_1 .A-active {
+	position:relative;
+	width:1920px;
+	height:183px;
+	overflow:hidden;
+}
+.Tabsx_1 .A-active .Img_per {
+	height:183px;
+	width:1920px;
+}
+.Tabsx_1 .A-active .P_poper {
+	position:absolute;
+	width:1200px;
+	height:30px;
+	margin-left:406px;
+}
+.Tabsx_1 .A-active .P_poper .float_man {
+	float:left;
+	color:transparent;
+	font-size:12px;
+	width:220px;
+	height:30px;
+	cursor:pointer;
+	z-index:99;
+}
+.Tabsx_1 .A-active .P_poper .float_man.maen_poper {
+	cursor:default;
+}
+.Tabsx_1 .A-item {
+	width:1920px;
+	height:411px;
+	overflow:hidden;
+}
+
+
+
+
+
+/*slides卡盘*/
+.Aslide_Select li {
+	list-style:none;
+}
+.Aslide_Select {
+	margin:20px auto;
+	position:relative;
+	width:470px;
+	padding:20px;
+	overflow:hidden;
+	border:1px solid #000000;
+}
+.Aslide_Select .Slide_Active {
+	width:470px;
+	height:150px;
+	overflow:hidden;
+}
+.Aslide_Select .Slide_Item {
+	position:absolute;
+	right:0px;
+	bottom:9px;
+	width:90px;
+	height:10px;
+}
+.Aslide_Select .Slide_Item li {
+	float:left;
+	height:16px;
+	width:16px;
+	line-height:16px;
+	text-align:center;
+	font-size:12px;
+	color:#2E2C2C;
+	border:1px solid #3B3939;
+	background-color:#F0E9B7;
+	margin-right:3px;
+	cursor:pointer;
+}
+.Aslide_Select .Slide_Item li.Active_back {
+	  width: 16px;
+	  height: 16px;
+	  line-height: 16px;
+	  margin-top: -1px;
+	  color: #FFF;
+	  background-color:#F37375;
+	  font-weight: bold;
+	  cursor:default;
+}
+
+
+
+
+
+/*旋转木马*/
+.Carousel_Div li {
+	list-style:none;
+}
+.Carousel_Div {
+	position:relative;
+	margin-left:-465px;
+	margin-bottom:20px;
+	width:1920px;
+	height:550px;
+	overflow:hidden;
+}
+.Carousel_Div .Scroll_prev {
+	display:block;
+	width:50px;
+	height:50px;
+	color:#fff;
+	line-height:50px;
+	font-size:70px;
+	font-weight:700;
+	cursor:pointer;
+}
+.Carousel_Div .Scroll_next {
+	display:block;
+	width:50px;	
+	height:50px;
+	color:#fff;
+	line-height:50px;
+	font-size:70px;
+	font-weight:700;
+	cursor:pointer;
+}
+.Carousel_Div .Car_img {
+	width:990px;
+	height:550px;
+}
+.Carousel_Div .C-ar_c {
+	position:absolute;
+	left:960px;
+	bottom:5px;
+}
+.Carousel_Div .C-ar_c li{
+	float:left;
+	color:#E7BABA;
+	font-size:50px;
+	margin-right:5px;
+	cursor:pointer;
+}
+
+
+
+
+
+/*倒计时*/
+.Countdown_D {
+	width:750px;
+	height:400px;
+	padding-top:20px;
+	border:1px solid #978F58;
+	margin:50px;
+}
+.Countdown_D h2 {
+	text-align:center;
+	height:30px;
+	line-height:30px;
+}
+.Countdown_D .Count_nav {
+	position:relative;
+	width:255px;
+	height:303px;
+	float:left;
+}
+.Countdown_D .Count_nav .Count_big {
+	
+	position:absolute;
+	width:281px;
+	height:68px;
+	z-index:20;
+	top:0px;
+	left:0px;
+	margin-left:-26px;
+	background:url(http://img01.taobaocdn.com/tps/i1/T1OJqiXhdgXXXXXXXX-451-860.png) no-repeat right 0;
+}
+.Countdown_D .Count_nav .Count_big .bug_c {
+	display:block;	
+}
+.Countdown_D .Count_nav .Count_big .bug_c_emag {
+	float:left;
+	height:68px;
+	padding-top:5px;
+	text-align:center;
+	display:block;
+	color:#fff;
+	font:700 46px Arial;
+}
+.Countdown_D .Count_nav .Count_big .bug_c .tuan_c {
+	float:left;
+	background:#000000;
+	z-index:99;
+	display:block;
+	width:90px;
+	height:68px;
+}
+.Countdown_D .Count_nav .Count_show {
+	width:255px;
+	height:59px;
+	position:absolute;
+	top:68px;
+	left:0px;
+	background:url(http://img02.taobaocdn.com/tps/i2/T11B9aXmReXXXXXXXX-264-248.png) no-repeat 1px 0;
+}
+.Countdown_D .Count_nav .Count_show .wid_ca {
+	width:85px;
+	height:29px;
+	line-height:29px;
+	float:left;
+	text-align:center;
+	font-size:14px;
+}
+.Countdown_D .Count_nav .Count_down {
+	position:absolute;
+	top:128px;
+	left:0px;
+	height:60px;
+	padding:10px;
+	font-size:12px;
+}
+.Countdown_D .Img_rig {
+	float:left;
+}
+/*测试*/
+.w_box{
+		width: 189px;
+		height: 192px;
+		position: relative;
+	}
+	.w_box .n_box{
+		width: 100%;
+		height: 192px;
+		position: absolute;
+		display: none;
+		background: url(http://img03.taobaocdn.com/imgextra/i3/2415914062/TB2kiP2cFXXXXXNXXXXXXXXXXXX_!!2415914062.jpg) no-repeat;
+		
+	}
+	.transform_01{
+		-webkit-animation:anime1re 0.66s;
+    	-moz-animation:anime1re 0.66s;
+    	-o-animation:anime1re 0.66s;
+    	animation:anime1re 0.66s;
+	}
+@-webkit-keyframes anime1re{
+    0%{transform:perspective(1200px) rotateX(0deg);opacity:1;}
+    100%{transform:perspective(1200px) rotateX(-180deg) ;  ;opacity:0.3;}
+}
+
+@-moz-keyframes anime1re{
+    0%{transform:perspective(1200px) rotateX(0deg);opacity:1;}
+    100%{transform:perspective(1200px) rotateX(-180deg) scale(1,3);  ;opacity:0.3;}
+}
+@keyframes anime1re{
+    0%{transform:perspective(1200px) rotateX(0deg);opacity:1;}
+    100%{transform:perspective(1200px) rotateX(-180deg) scale(1,3);  ;opacity:0.3;}
+}
+@-o-keyframes anime1re{
+    0%{transform:perspective(1200px) rotateX(0deg);opacity:1;}
+    100%{transform:perspective(1200px) rotateX(-180deg) scale(1,3);  ;opacity:0.3;}
+}
+	.w_box:hover .n_box{
+		bottom: 0px;
+		display: block;
+	}
